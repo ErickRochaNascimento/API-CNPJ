@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta CNPJ</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="principal">
+            <h1>Consultar CNPJ</h1>
+            <div class="div.form">
+                <input type="text" name="CNPJ" id="CNPJ" class="form" onblur="BuscarCNPJ(this.value)" >
+                <button onblur="return BuscarCNPJ(this.value)" onclick="BuscarCNPJ(cnpj)" type="submit">Consultar</button>
+            </div>
+            <div id="resultado">
+
+
+            </div>
+        </div>
+        
+    </main>
+    <footer></footer>
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #FFFFFF;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+    background-color: aliceblue;
+    width: 50%;
+    height: 60vh;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+
+}
+
+
+
+.form {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h1, h2, p{
+   padding-top: 10px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+}
+
+button:hover {
+    background: #1b357e;
+}
+button {
+    background: #1351d8;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+}
