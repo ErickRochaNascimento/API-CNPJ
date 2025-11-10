@@ -97,3 +97,14 @@ O projeto está disponível publicamente através do GitHub Pages. Você pode te
 
 Este projeto é de uso livre para fins de estudo e aprendizado.  
 Os dados são públicos e provenientes da [BrasilAPI](https://brasilapi.com.br/).
+
+## ▶️ Como Rodar Localmente
+
+Para testar o projeto em sua máquina:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/ErickRochaNascimento/API-CNPJ.git
+    cd API-CNPJ
+    ```
+2.  **Abra o arquivo `index.html`** no seu navegador.
